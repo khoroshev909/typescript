@@ -4,4 +4,4 @@ enum Social {
     INSTAGRAM = 'INSTAGRAM'
 }
 
-const social: string = Social.FACEBOOK // 'FACEBOOK'
+const social: Social = Social.FACEBOOK // 'FACEBOOK'

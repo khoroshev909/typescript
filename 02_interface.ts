@@ -14,7 +14,7 @@ const rect1: IRect = {
     size: {
         width: 20,
         height: 20
-    }
+    },
 }
 rect1.color = 'black'
 
@@ -44,3 +44,6 @@ const styles: IStyles = {
     font: '14px',
     background: 'black'
 }
+
+// как привести к типу
+const rect4 = {} as IRect
